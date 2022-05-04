@@ -76,7 +76,7 @@ COLOR_PLACEHOLDER = ''
 def ask_for_letters():
     letters = ''
     while len(letters) < 16:
-        raw_letters = input(f'Entrez les lettres ({16-len(letters)} lettres restantes) ')
+        raw_letters = input(f'Enter letters:({16-len(letters)} letters remaining) ')
         letters += ''.join(l.upper() for l in raw_letters if l in ascii_letters)
     return letters
 
