@@ -22,11 +22,13 @@ Also a list of words in the language you want to use (one word per line)
 ## Usage
 
 The solver needs a JSON file containing a tree of valid words. You need to generate it by passing a list of words to **make_tree.py**:
+
 ```./make_tree.py mots.txt > tree.json```
 
 *mots.txt contains a list of French words. Replace it with your own list*
 
 Start the solver by calling **solver.py**, passing the generated JSON file as argument:
+
 ```./solver.py tree.json```
 
 Enter the letters in the grid when the program prompts you to (you can type all 16 letters on the same line, line by line, one at a time, whichever you find most practical).
@@ -38,4 +40,5 @@ By default the program waits for you to press Return before displaying a new sol
 ## License
 
 This project is licensed under the terms of the GNU GPLv3 license.
+
 Social preview picture uses work by Wikipedia user Stilfehler (CC BY-SA 3.0)
