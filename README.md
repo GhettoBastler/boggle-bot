@@ -3,6 +3,7 @@
 This program finds words in a 4x4 Boggle grid.
 
 ![grid](https://user-images.githubusercontent.com/100698182/166723719-b1dc5444-2490-4bfa-84f8-029780d2f541.jpg)
+
 *Grid from [Boggle.fr](https://www.boggle.fr/)*
 
 <img src="https://user-images.githubusercontent.com/100698182/166723061-bbb0ec2c-5699-454f-9ee9-2d02cbcba135.gif" alt="demo" width="500"/>
@@ -37,3 +38,4 @@ By default the program waits for you to press Return before displaying a new sol
 ## License
 
 This project is licensed under the terms of the GNU GPLv3 license.
+Social preview picture uses work by Wikipedia user Stilfehler (CC BY-SA 3.0)
